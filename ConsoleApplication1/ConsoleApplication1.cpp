@@ -70,7 +70,7 @@ int main()
             std::cout << "False Login" << std::endl;
             system("Pause");
             return 0;
-        } else {
+        } else if (status) {
             std::cout << "Success logged in!" << std::endl;
             system("Pause");
             return 1;
